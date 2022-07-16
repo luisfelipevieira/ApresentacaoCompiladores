@@ -12,6 +12,7 @@ foi mandado email para o professor perguntando sobre
 * 
 
 ### "Como funciona (o que recebe como entrada e como é a entrada, como é o  processamento e o que é obtido como saída)."
+* A forma de o usuário entrar com a especificação léxica da linguagem é através de expressões regulares, são definidas expressões para cada token da linguagem e o Microlex se encarrega da geração do autômato finito para a identificação destes. O gerador final pode ser obtido em três linguagens: Object Pascal, C++ e Java, e ainda é possível escolher duas possíveis técnicas para o gerador: através de tabelas de análise, com uma rotina auxiliar, ou com o autômato programado diretamente na linguagem objeto.
 
 ### <s>Qual o tipo de análise é implementada, caso seja um gerador de parser. </s>
 
